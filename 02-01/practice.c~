@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+float main() {
+  float y;
+  y = (2 + 5)/2;
+  printf("%f\n", y);
+}

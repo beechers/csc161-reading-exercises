@@ -1,0 +1,16 @@
+1. Int is a data type that represents an integer. int is typically the
+natural the size for the machine you are on. However, short is often 16
+bits while long is 32 and int is either 16 or 32 bits. Short and long are
+qualifiers that can be applied to basic data types, specifically to
+integers. A float is a data type that has a fractional part. A float is
+typically 32 bit and has at least 6 significant digits. A double precision
+floating point has an increased precision over a normal float.
+
+Short min:
+Short max:
+Int min:
+Int max:
+Float min:
+Float max:
+Double min:
+Double max:

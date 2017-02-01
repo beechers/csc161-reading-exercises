@@ -1,0 +1,33 @@
+1. Int is a data type that represents an integer. int is typically the
+natural the size for the machine you are on. However, short is often 16
+bits while long is 32 and int is either 16 or 32 bits. Short and long are
+qualifiers that can be applied to basic data types, specifically to
+integers. A float is a data type that has a fractional part. A float is
+typically 32 bit and has at least 6 significant digits. A double precision
+floating point has an increased precision over a normal float.
+
+Values from book and C library on tutorials point
+Short min:-32768
+Short max:32767
+Int min: -2147483648
+Int max: +2147483647 
+Float min:1.2E-38 
+Float max:3.4E+38
+Double min:2.3E-308
+Double max:1.7E+308
+
+2. 3.000000
+
+#include <stdio.h>
+
+float main() {
+  float y;
+  y = (2 + 5)/2;
+  printf("%f\n", y);
+}
+
+It truncates the value down to 3 instead of 3.5
+
+3. After executing the code, i=1, j=1, x=0, y=1
+This is because for x, the i is increased after the code is executed, this
+means that it will set x equal to 0 and then change the i afterwards.
