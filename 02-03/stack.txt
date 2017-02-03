@@ -1,0 +1,13 @@
+Program Counter: 4
+
+The Stack
+=========
+--- foo
+    x [5]
+--- main
+    (empty)
+
+This program calls the main function which immediately calls the foo
+function. After this, the value 5 is assigned to x. However, as we can see,
+after x is assigned, the function foo is called again and will continue to
+be called again. It will never give us an output. 
