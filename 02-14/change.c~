@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+void change(int x) {
+    x = 3;
+}
+
+int main(void) {
+    int x = 0;
+    change(x);
+    printf("%d\n", x);
+}
