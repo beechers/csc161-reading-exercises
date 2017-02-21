@@ -1,0 +1,14 @@
+For the unsigned char value 153:
+
+The binary representation for 153 is
+
+1*2^7 + 0*10^6 + 0*10^5 + 1*10^4 + 1*10^3 + 0*10^2 + 0*10^1 + 1*10^0
+
+10011001
+
+If we interpret this as the sign being the leftmost 1, this value is
+-(153-128) = -25
+
+153 is the trademark sign
+
+In the case of unsigned char x = 153, x is represented as 0b10011001
