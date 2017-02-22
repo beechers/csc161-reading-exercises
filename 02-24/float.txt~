@@ -1,0 +1,11 @@
+For the string, 0100001011011001000000000000
+
+The 0 at the beginning represents a positive number.
+
+10000101 forms the binary numeral 133 and represents the exponent
+6 when the bias of 127 is removed
+
+Its mantissa is expressed by 1.011001000000000000 and expresses
+the number 89/64 so the number is
+
+2^6 * 89/64 = 89.0
